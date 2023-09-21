@@ -3,8 +3,8 @@ from twilio.rest import Client
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-APIKEY = "YMDLTLZS2WN7BOQW"
-NEWSAPIKEY = "f6f24cf0ec864ce78665d65a47a770b6"
+APIKEY = "your api key"
+NEWSAPIKEY = "your news api key"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
@@ -51,15 +51,15 @@ if abs(percentage) > 1:
         brief = article["description"]
         messages.append(f"{STOCK_NAME}: {up_down}{percentage}%\nHeadline: {headline}\nBrief: {brief}")
 
-    account_sid = 'AC978390d7ce17adb6f081de157e8e2f1f'
-    auth_token = '9255dc23a6f862ef1ac0c95cd59e8f6d'
+    account_sid = 'your sid'
+    auth_token = 'your auth token'
     client = Client(account_sid, auth_token)
 
     for i in messages:
         message = client.messages.create(
             body=i,
-            from_='+17157695186',
-            to='+639913070670'
+            from_='your twilio number',
+            to='your phone number'
         )
  
 
