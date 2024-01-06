@@ -6,8 +6,8 @@ from email.mime.multipart import MIMEMultipart
 
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_username = 'alaintorno@gmail.com'
-smtp_password = 'ojif wqxs eozn yvrs'
+smtp_username = ''
+smtp_password = ''
 
 amazon_url = "https://www.amazon.com/SAMSUNG-Factory-Unlocked-Smartphone-Adaptive/dp/B0BLP4J9RR?ref_=Oct_DLandingS_D_469bf428_0&th=1"
 
@@ -31,8 +31,8 @@ if price_no_currency < 1000:
         server.login(smtp_username, smtp_password)
 
         subject = 'SAMSUNG Galaxy S23+ Plus Price Update'
-        sender_email = 'alaintorno@gmail.com'
-        receiver_email = 'alaintorno@gmail.com'
+        sender_email = ''
+        receiver_email = ''
         message_text = f'SAMSUNG Galaxy S23+ Plus is now ${price_no_currency}.\n{amazon_url}'
 
         msg = MIMEMultipart()
