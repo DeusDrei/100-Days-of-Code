@@ -2,7 +2,7 @@ import smtplib
 import random
 import datetime as dt
 
-my_email = "sample@gmail.com"
+my_email = "uremail@gmail.com"
 my_password = "samplepassword"
 
 now = dt.datetime.now()
