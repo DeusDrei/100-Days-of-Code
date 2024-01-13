@@ -1,10 +1,10 @@
 import requests
 from datetime import datetime
 
-APP_ID = "app id"
-API_KEY = "api key"
+APP_ID = "app_id"
+API_KEY = "api_key"
 exercise_endpoint = "endpoint"
-gsheet_post_endpoint = "endpoint"
+gsheet_post_endpoint = "g_sheet_endpoint"
 
 headers = {
     "x-app-id": APP_ID,
