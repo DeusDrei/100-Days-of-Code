@@ -19,7 +19,7 @@ label.grid(row=0,column=0)
 user_input = Entry(width=10)
 user_input.grid(row=0, column=1)
 
-# Miles
+# Miles label
 miles_label = Label(text="Miles")
 miles_label.grid(row=0,column=2)
 
