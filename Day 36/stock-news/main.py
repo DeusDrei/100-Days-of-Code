@@ -4,7 +4,7 @@ from twilio.rest import Client
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 APIKEY = "your api key"
-NEWSAPIKEY = "your news api key"
+NEWSAPIKEY = "news api key"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
