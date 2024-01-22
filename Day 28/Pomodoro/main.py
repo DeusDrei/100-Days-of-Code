@@ -11,7 +11,7 @@ LONG_BREAK_MIN = 20
 reps = 0
 timer = None
 
-# ---------------------------- TIMER RESET ------------------------------- # 
+# ----------------------------- TIMER RESET -------------------------------- # 
 def reset_timer():
     global reps
     window.after_cancel(timer)
