@@ -62,11 +62,8 @@ def blackjack():
         computer_card.append(deal_card())
         computer_score = calculate_score(computer_card)
     print(f"Your final hand: {player_card}, Your final score: {player_score}")
-    print(
-        f"Dealer's final hand: {computer_card}, Dealer's final score: {computer_score}"
-    )
+    print(f"Dealer's final hand: {computer_card}, Dealer's final score: {computer_score}")
     print(compare(player_score, computer_score))
-
 
 while True:
     ask = input("Do you want to play a game of Blackjack? (Y/N) ").lower()
