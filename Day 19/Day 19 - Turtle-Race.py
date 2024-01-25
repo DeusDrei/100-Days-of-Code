@@ -12,8 +12,6 @@ all_turtles = []
 
 is_on = False
 
-c
-
 if bet:
     is_on = True
 
