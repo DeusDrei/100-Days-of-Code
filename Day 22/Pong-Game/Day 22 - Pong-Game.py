@@ -33,12 +33,12 @@ while is_on:
     if ball.distance(r_pong) < 50 and ball.xcor() > 320 or ball.distance(l_pong) < 50 and ball.xcor() < -320:
         ball.bounce_x()
 
-    # Right Paddle miss
+    # right paddle miss
     if ball.xcor() > 380:
         ball.reset_position()
         scoreboard.l_point()
     
-    # Left Paddle miss
+    # left paddle miss
     if ball.xcor() < -380:
         ball.reset_position()
         scoreboard.r_point()
