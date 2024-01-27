@@ -1,4 +1,3 @@
-
 names = []
 with open("./Input/Names/invited_names.txt") as f:
     names = [line.strip() for line in f.readlines()]
