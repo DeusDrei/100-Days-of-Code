@@ -54,4 +54,3 @@ graph_update = {
 
 # response = requests.delete(url=delete_endpoint, headers=header)
 # print(response.text)
-
