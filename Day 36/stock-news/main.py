@@ -61,6 +61,5 @@ if abs(percentage) > 1:
             from_='your twilio number',
             to='your phone number'
         )
- 
 
 
