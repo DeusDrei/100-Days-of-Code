@@ -15,5 +15,3 @@ for i in websites:
     print(f"{counter}. {i.text}\n Link: {j}")
 
 
-
-
