@@ -40,6 +40,5 @@ button = Button(text="Calculate", command=calculate)
 button.grid(row=2, column=1)
 
 
-
 window.mainloop()
 
