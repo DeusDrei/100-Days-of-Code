@@ -62,3 +62,4 @@ while not end_game:
   x = y
   del (followers[0])
   y = pick()
+
