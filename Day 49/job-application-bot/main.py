@@ -62,4 +62,3 @@ for listing in all_listings:
         continue
 
 driver.quit()
-
