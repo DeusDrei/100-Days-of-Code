@@ -40,3 +40,4 @@ if will_rain:
         to="Your verified number" # input data
     )
     print(message.status)
+
