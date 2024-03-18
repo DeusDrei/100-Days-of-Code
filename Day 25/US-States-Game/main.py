@@ -29,5 +29,3 @@ while len(guessed) < 50:
         alain.goto(x=int(state_data.x), y=int(state_data.y))
         alain.write(answer)
 
-
-
