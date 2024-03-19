@@ -72,7 +72,6 @@ right_button.grid(row=1, column=1)
 
 generate_word()
 
-
 window.mainloop()
 
 
