@@ -70,7 +70,6 @@ right_image = PhotoImage(file="images/right.png")
 right_button = Button(image=right_image, highlightthickness=0, command=is_known)
 right_button.grid(row=1, column=1)
 
-
 generate_word()
 
 
