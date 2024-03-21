@@ -24,3 +24,4 @@ if date_today in birthdays:
             from_addr=MY_EMAIL,
             to_addrs=birthday_person["email"],
             msg=f"Subject:Happy Birthday!\n\n{contents}")
+
