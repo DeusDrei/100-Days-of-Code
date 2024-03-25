@@ -24,4 +24,3 @@
 #     move()
 #   elif wall_in_front():
 #     jump()
-
