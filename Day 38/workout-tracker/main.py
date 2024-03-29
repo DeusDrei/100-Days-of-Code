@@ -21,7 +21,6 @@ new_list = response_query.json()
 
 today = datetime.now()
 
-
 for i in new_list["exercises"]:
 
     to_input = {
