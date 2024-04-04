@@ -11,4 +11,3 @@ for i in names:
         x = letter.replace("[name]", i)
         write_file.write(x)
 
-
