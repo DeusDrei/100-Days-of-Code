@@ -1,7 +1,6 @@
 from turtle import Turtle, Screen
 import random
 
-
 screen = Screen()
 screen.setup(width=500,height=400)
 bet = screen.textinput(title="Make a bet", prompt="Pick a color (red, orange, green, black, blue, violet, brown): ")
