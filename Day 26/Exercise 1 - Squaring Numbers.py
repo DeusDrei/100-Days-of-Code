@@ -6,4 +6,3 @@ squared_numbers = [i ** 2 for i in numbers]
 
 #Write your code 👆 above:
 print(squared_numbers)
-
