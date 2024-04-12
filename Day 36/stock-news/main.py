@@ -62,4 +62,3 @@ if abs(percentage) > 1:
             to='your phone number'
         )
 
-
