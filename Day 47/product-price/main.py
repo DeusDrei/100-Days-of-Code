@@ -48,3 +48,4 @@ if price_no_currency < 1000:
 
     finally:
         server.quit()
+        
