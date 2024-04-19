@@ -43,4 +43,3 @@ while True:
     elif lives == 0:
         print(f"You Lose, the number was {random_number}")
         break
-      
