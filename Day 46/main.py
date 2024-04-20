@@ -43,3 +43,4 @@ playlist = sp.user_playlist_create(user=user_id, name=f"{ask} Billboard 100", pu
 print(playlist)
 
 sp.playlist_add_items(playlist_id=playlist["id"], items=song_uris)
+
