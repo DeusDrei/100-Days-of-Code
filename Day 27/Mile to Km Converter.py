@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 def calculate():
     x = user_input.get()
     num = round(int(x) * 1.609)
