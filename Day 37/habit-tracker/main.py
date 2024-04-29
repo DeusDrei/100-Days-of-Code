@@ -1,7 +1,6 @@
 import requests
 from datetime import datetime
 
-
 ID = "graph id"
 USERNAME = "username"
 TOKEN = "token"
