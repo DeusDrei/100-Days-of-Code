@@ -19,4 +19,3 @@ if weekday == 0:
                             to_addrs=my_email, 
                             msg=f"Subject:Monday Motivational Quote\n\n{random.choice(quotes)}")
 
-
