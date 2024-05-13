@@ -75,4 +75,3 @@ generate_word()
 window.mainloop()
 
 
-
