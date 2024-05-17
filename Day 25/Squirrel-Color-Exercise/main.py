@@ -21,4 +21,3 @@ data_dict = {
 
 new_data = pd.DataFrame(data_dict)
 new_data.to_csv("squirrel_count.csv")
-
