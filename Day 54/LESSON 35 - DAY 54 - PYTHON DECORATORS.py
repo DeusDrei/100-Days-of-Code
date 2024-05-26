@@ -25,4 +25,3 @@ def slow_function():
 
 fast_function()
 slow_function()
-
